@@ -24,7 +24,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   
   function asynch(agent) {
     const samplePayload = {
-        "fulfillmentText": "Final response for async intent.",
+        "fulfillmentText": "Final response for async intent - from github.",
         "fulfillmentMessages": [{
             "payload": {
                 "dialogflow.system.intent": "ASYNC_FULFILLMENT_HOLD",
